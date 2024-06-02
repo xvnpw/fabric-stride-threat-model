@@ -1,4 +1,4 @@
-# Fabric for Stride Threat Model
+# Fabric for STRIDE Threat Model
 
 [Fabric](https://github.com/danielmiessler/fabric) is framework that enables AI at your fingertips. Instead going into chat (e.g. ChatGPT) or writing custom programs that consume API, you can create prompts as markdown text and get output as markdown. Fabric also maintain database of prompts called [patterns](https://github.com/danielmiessler/fabric/tree/main/patterns).
 
