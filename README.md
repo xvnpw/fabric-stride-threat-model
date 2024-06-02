@@ -12,3 +12,11 @@ In this repo, I collected examples of usage of [create_stride_threat_model](http
 | [threat_model_claude_3_opus.md](threat_model_claude_3_opus.md) | Threat Model created using `create_stride_threat_model` pattern | Claude 3 Opus |
 | [threat_model_gpt_4o.md](threat_model_gpt_4o.md) | Threat Model created using `create_stride_threat_model` pattern | GPT-4o |
 | [threat_model_gemini_1.5_pro.md](threat_model_gemini_1.5_pro.md) | Threat Model created using `create_stride_threat_model` pattern | Gemini-1.5 Pro Latest |
+
+## How to reproduce
+
+```
+# get fabric installed - https://github.com/danielmiessler/fabric
+$ wget https://raw.githubusercontent.com/xvnpw/fabric-stride-threat-model/main/INPUT.md
+$ cat INPUT.md | fabric --pattern create_stride_threat_model -m claude-3-opus-20240229 > threat_model_claude_3_opus.md
+```
